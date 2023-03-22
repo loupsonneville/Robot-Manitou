@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gDatabaseCore" Type="mpdatabasecore">
+    <Group ID="mapp.Database.Core">
+      <Property ID="Name" Value="BDDManitou" />
+      <Property ID="UserName" Value="Admin" />
+      <Property ID="Password" Value="Wiener_Blut27" />
+      <Property ID="PortNumber" Value="3308" />
+    </Group>
+  </Element>
+  <Element ID="gDatabaseCore_1" Type="mpdatabasecore" />
+</Configuration>

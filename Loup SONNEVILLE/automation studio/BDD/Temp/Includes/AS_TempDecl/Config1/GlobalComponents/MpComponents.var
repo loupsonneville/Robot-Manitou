@@ -1,0 +1,4 @@
+VAR
+	gDatabaseCore : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Physical\Config1\X90CP174_24_00\mappServices\Config.mpdatabasecore" #2"1" #3"1"*)
+	gDatabaseCore_1 : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Physical\Config1\X90CP174_24_00\mappServices\Config.mpdatabasecore" #2"1" #3"1"*)
+END_VAR
