@@ -6,6 +6,10 @@
       <Connection Connector="SL" TargetModule="X90CP174_24_00" TargetConnector="X1" />
     </Module>
     <Connection Connector="X1" TargetModule="X1" TargetConnector="SL" />
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="BDD_Config1" />
     <Parameter ID="Cyclic1Duration" Value="10000" />
     <Parameter ID="Cyclic1Tolerance" Value="10000" />
     <Parameter ID="Cyclic2Duration" Value="20000" />

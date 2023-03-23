@@ -1,0 +1,21 @@
+Wed Mar 22 14:13:41 2023
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Wed Mar 22 14:13:41 2023
+No ARsim registration found!
+
+Wed Mar 22 14:13:41 2023
+InstanceName: 01d95cc01f39d3e0
+
+Wed Mar 22 14:13:41 2023
+WorkingDirectory: C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Temp\Simulation\Config1\X90CP174_24_00\
+
+Wed Mar 22 14:13:41 2023
+COMMAND_COLDSTART
+
+Wed Mar 22 14:13:48 2023
+Version: C4.90
+
+Wed Mar 22 14:13:51 2023
+COMMAND_TERMINATE
+
