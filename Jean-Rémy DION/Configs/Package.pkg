@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="mappViewControl" PackageType="mappViewControl" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Config.mappviewcfg</Object>
+    <Object Type="File">Visualizat.vis</Object>
+    <Object Type="File">contentTramesEmisesMotor.binding</Object>
+    <Object Type="File">contentLeftTramesEmises.eventbinding</Object>
+    <Object Type="File">contentTramesRecuesHMI.binding</Object>
+    <Object Type="File">contentTramesEmisesSPU.binding</Object>
+    <Object Type="File">IHM_Content.binding</Object>
+  </Objects>
+</Package>
