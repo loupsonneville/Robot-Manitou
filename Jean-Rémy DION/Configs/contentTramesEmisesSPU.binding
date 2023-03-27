@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="contentTramesEmisesSPU_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:NameTramesSPU" attribute="value" />
+<Target xsi:type="brease" contentRefId="contentTramesEmisesSPU" widgetRefId="TableItem1" attribute="stringValue" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Actualiisa:TramesSPU[7].Data" attribute="value" />
+<Target xsi:type="brease" contentRefId="contentTramesEmisesSPU" widgetRefId="TableItem3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Actualiisa:TramesSPU[6].Data" attribute="value" />
+<Target xsi:type="brease" contentRefId="contentTramesEmisesSPU" widgetRefId="TableItem4" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Actualiisa:TramesSPU[1].Data" attribute="value" />
+<Target xsi:type="brease" contentRefId="contentTramesEmisesSPU" widgetRefId="TableItem9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Actualiisa:TramesSPU[2].Data" attribute="value" />
+<Target xsi:type="brease" contentRefId="contentTramesEmisesSPU" widgetRefId="TableItem8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Actualiisa:TramesSPU[3].Data" attribute="value" />
+<Target xsi:type="brease" contentRefId="contentTramesEmisesSPU" widgetRefId="TableItem7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Actualiisa:TramesSPU[4].Data" attribute="value" />
+<Target xsi:type="brease" contentRefId="contentTramesEmisesSPU" widgetRefId="TableItem6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Actualiisa:TramesSPU[5].Data" attribute="value" />
+<Target xsi:type="brease" contentRefId="contentTramesEmisesSPU" widgetRefId="TableItem5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Actualiisa:TramesSPU[0].Data" attribute="value" />
+<Target xsi:type="brease" contentRefId="contentTramesEmisesSPU" widgetRefId="TableItem10" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ID_SPU" attribute="value" />
+<Target xsi:type="brease" contentRefId="contentTramesEmisesSPU" widgetRefId="TableItem2" attribute="stringValue" />
+</Binding>
+</Bindings>
+</BindingsSet>
