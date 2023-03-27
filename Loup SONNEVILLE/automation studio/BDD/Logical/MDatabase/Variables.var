@@ -1,0 +1,3 @@
+VAR
+	base_de_donnees : USINT;
+END_VAR
