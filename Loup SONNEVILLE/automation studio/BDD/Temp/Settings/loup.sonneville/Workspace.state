@@ -16,9 +16,7 @@
       <Column Index="10" Width="0" Position="10" />
     </Columns>
     <ExpandedNodes />
-    <SelectedNodes>
-      <SelectedNode Row="0" />
-    </SelectedNodes>
+    <SelectedNodes />
     <ZoomIndices />
   </TreeView>
 </State>
