@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\mdatabase\cyclic.ld.c">
+    <BuildReason>Target "cyclic.ld.c" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\mdatabase\exit.ld.c">
+    <BuildReason>Target "exit.ld.c" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\mdatabase\init.ld.c">
+    <BuildReason>Target "init.ld.c" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+</BuildReasons>
