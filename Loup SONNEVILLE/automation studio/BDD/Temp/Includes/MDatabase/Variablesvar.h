@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1680093383_1_
-#define _BUR_1680093383_1_
+#ifndef _BUR_1680525746_1_
+#define _BUR_1680525746_1_
 
 #include <bur/plctypes.h>
 
@@ -13,7 +13,7 @@
 
 
 /* Variables */
-_BUR_LOCAL unsigned char MpDatabaseCore_0;
+_BUR_LOCAL struct MpDatabaseCoreInfoType MpDatabaseCore_0;
 
 
 
@@ -29,5 +29,5 @@ __asm__(".ascii \"iecfile \\\"Logical/MDatabase/Variables.var\\\" scope \\\"loca
 __asm__(".previous");
 
 
-#endif /* _BUR_1680093383_1_ */
+#endif /* _BUR_1680525746_1_ */
 
