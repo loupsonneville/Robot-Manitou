@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1680525746_1_
-#define _BUR_1680525746_1_
+#ifndef _BUR_1680688282_1_
+#define _BUR_1680688282_1_
 
 #include <bur/plctypes.h>
 
@@ -13,7 +13,7 @@
 
 
 /* Variables */
-_BUR_LOCAL struct MpDatabaseCoreInfoType MpDatabaseCore_0;
+_BUR_LOCAL struct MpDatabaseCore MpDatabaseCore_0;
 
 
 
@@ -23,11 +23,12 @@ __asm__(".section \".plc\"");
 
 /* Used IEC files */
 __asm__(".ascii \"iecfile \\\"Logical/MDatabase/Variables.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/MpDatabase/MpDatabase.fun\\\" scope \\\"global\\\"\\n\"");
 
 /* Exported library functions and function blocks */
 
 __asm__(".previous");
 
 
-#endif /* _BUR_1680525746_1_ */
+#endif /* _BUR_1680688282_1_ */
 

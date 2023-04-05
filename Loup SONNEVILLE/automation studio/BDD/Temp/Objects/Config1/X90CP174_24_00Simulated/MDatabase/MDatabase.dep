@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/MpDatabase/MpDatabase.fun
+$(AS_PROJECT_PATH)/Logical/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/MpDatabase/MpDatabaseError.typ
+$(AS_PROJECT_PATH)/Logical/MpDatabase/MpDatabase.typ
+$(AS_PROJECT_PATH)/Logical/MDatabase/Variables.var
+$(AS_PROJECT_PATH)/Physical/Config1/X90CP174_24_00/mappServices/Config.mpdatabasecore

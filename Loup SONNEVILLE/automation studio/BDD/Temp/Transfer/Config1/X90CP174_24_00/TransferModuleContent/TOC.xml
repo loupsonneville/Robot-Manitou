@@ -30,5 +30,31 @@
 			</Folder>
 			<File Name="arsimproxy.dll" Size="211456" HashValue="777B00730C5E4F35BB5698A94D96DAFF" ProjectDependent="1" IgnoreDifference="0" />
 		</Class>
+		<Memory Name="SYSROM">
+			<Module Name="::$$sysconf" Type="129" Size="68640" Modified="2023-03-27 16:22:29" Version="4.90" ProjectDependent="1" Reboot="1" />
+			<Module Name="::TCData" Type="209" Size="3918816" Modified="2023-03-27 16:22:39" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arconfig" Type="132" Size="6792" Modified="2023-03-27 16:22:27" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::asfw" Type="67" Size="430464" Modified="2023-03-27 16:22:30" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwd" Type="67" Size="13968" Modified="2023-03-27 16:22:31" Version="1.00" ProjectDependent="1" Reboot="1" />
+		</Memory>
+		<Memory Name="USERROM">
+			<Module Name="::ArSvcReg" Type="18" Size="78216" Modified="2016-12-09 07:57:34" Version="4.90" ProjectDependent="1" />
+			<Module Name="::AsHttp" Type="18" Size="66320" Modified="2020-11-19 10:21:56" Version="4.90" ProjectDependent="1" />
+			<Module Name="::AsIecCon" Type="18" Size="17432" Modified="2020-11-19 10:22:00" Version="4.90" ProjectDependent="1" />
+			<Module Name="::Config" Type="136" Size="1828" Modified="2023-04-05 13:49:55" Version="5.12" ProjectDependent="1" />
+			<Module Name="::FWRules" Type="136" Size="456" Modified="2023-03-27 16:22:31" Version="1.00" ProjectDependent="1" />
+			<Module Name="::FileIO" Type="18" Size="25460" Modified="2020-11-19 10:23:41" Version="4.90" ProjectDependent="1" />
+			<Module Name="::MDatabase" Type="17" Size="3796" Modified="2023-04-05 13:49:55" Version="1.00" ProjectDependent="1" />
+			<Module Name="::MpBase" Type="18" Size="555280" Modified="2020-07-10 14:16:02" Version="5.12" ProjectDependent="1" />
+			<Module Name="::MpDatabase" Type="18" Size="221868" Modified="2020-08-21 20:51:00" Version="5.12" ProjectDependent="1" />
+			<Module Name="::Role" Type="136" Size="760" Modified="2023-03-27 16:22:30" Version="1.00" ProjectDependent="1" />
+			<Module Name="::User" Type="136" Size="648" Modified="2023-03-27 16:22:30" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ashwac" Type="136" Size="212" Modified="2023-03-27 16:22:28" Version="1.00" ProjectDependent="1" />
+			<Module Name="::astime" Type="18" Size="24304" Modified="2020-11-19 10:23:02" Version="4.90" ProjectDependent="1" />
+			<Module Name="::iomap" Type="50" Size="8056" Modified="2023-03-27 16:22:28" Version="1.00" ProjectDependent="1" />
+			<Module Name="::runtime" Type="18" Size="29340" Modified="2020-11-19 10:23:47" Version="4.90" ProjectDependent="1" />
+			<Module Name="::sys_lib" Type="18" Size="19832" Modified="2020-11-19 10:23:53" Version="4.90" ProjectDependent="1" />
+			<Module Name="::udbdef" Type="210" Size="70264" Modified="2014-04-10 10:00:00" Version="0.01" ProjectDependent="1" />
+		</Memory>
 	</Application>
 </Toc>
