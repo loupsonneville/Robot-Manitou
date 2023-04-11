@@ -27,8 +27,4 @@
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\x90cp174_24_00\transfer.lst">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\ashwd.br" differs.
-</BuildReason>
-  </Rule>
 </BuildReasons>

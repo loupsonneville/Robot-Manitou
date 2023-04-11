@@ -2,25 +2,25 @@
 <?AutomationStudio FileVersion="4.9" WorkingVersion="4.9"?>
 <RuleSetOptions UsesUTCTime="True">
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\ashwac.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-06 13:02:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-11 14:38:48" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\ashwac.br&quot; -L &quot;AsHttp: V*, AsIecCon: V*, astime: V*, MpBase: V5.12.0, MpDatabase: V5.12.0, operator: V*, runtime: V*&quot; -c &quot;Config1&quot; -Z &quot;mapp: 5.12.0, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -M IA32 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; -T SG4 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\sysconf.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-06 13:02:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-11 14:38:48" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -c &quot;Config1&quot; -sysconf -S &quot;X90CP174_24_00&quot; -Z &quot;mapp: 5.12.0, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\sysconf.br&quot; -T SG4 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\asfw.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-06 13:02:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-11 14:38:48" />
     <Prerequisite ID="c:\brautomation\as49\upgrades\modified.txt" LastWriteTime="2020-11-19 13:46:36" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;X90CP174_24_00&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\asfw.br&quot; -T SG4 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -firmware -Z &quot;mapp: 5.12.0, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\ashwd.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-06 13:02:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-11 14:38:48" />
     <Prerequisite ID="c:\brautomation\as49\upgrades\modified.txt" LastWriteTime="2020-11-19 13:46:36" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;X90CP174_24_00&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\ashwd.br&quot; -T SG4 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -hwd -Z &quot;mapp: 5.12.0, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\arconfig.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-06 13:02:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-11 14:38:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x90cp174_24_00\iomap.iom" LastWriteTime="2023-03-21 13:27:44" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\X90CP174_24_00\IoMap.iom&quot;  -arconfig -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -c &quot;Config1&quot; -v V1.00.0 -S &quot;X90CP174_24_00&quot; -Z &quot;mapp: 5.12.0, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\HardwareConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
   </Rule>
@@ -31,7 +31,7 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\iomap.br">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x90cp174_24_00\iomap.iom" LastWriteTime="2023-03-21 13:27:44" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x90cp174_24_00\pvmap.vvm" LastWriteTime="2023-03-21 13:27:44" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-06 13:02:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-04-11 14:38:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x90cp174_24_00\cpu.sw" LastWriteTime="2023-04-05 09:14:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\channelconfiguration.xml" LastWriteTime="2023-04-06 13:04:14" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X90CP174_24_00\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\X90CP174_24_00\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X90CP174_24_00\iomap.br&quot; -T SG4 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1.X90CP174_24_00&quot;" />
