@@ -3,7 +3,7 @@ PROGRAM _CYCLIC
 <?AutomationStudio FileVersion="4.9"?>
 <!-- Automation Studio Generated XML Section -->
 <networks maxcolumn="0">
-	<network label="" comment="" row="8" column="0" commented="0">
+	<network label="" comment="" row="9" column="0" commented="0">
 		<row>
 			<empty/>
 			<empty/>
@@ -12,8 +12,14 @@ PROGRAM _CYCLIC
 		</row>
 		<row>
 			<empty/>
+			<empty/>
+			<functionblock position="top" type="MpDatabaseCore"><input name="EN" ENO="true"/><output name="ENO" ENO="true"/></functionblock>
+			<empty/>
+		</row>
+		<row>
+			<empty/>
 			<contact type="address" name="gDatabaseCore"/>
-			<functionblock position="top" type="MpDatabaseCore"><input name="MpLink" vardynamic="true"/><output name="Active"/></functionblock>
+			<functionblock position="middle" type="MpDatabaseCore"><input name="MpLink" vardynamic="true"/><output name="Active"/></functionblock>
 			<empty/>
 		</row>
 		<row>
@@ -55,4 +61,6 @@ PROGRAM _CYCLIC
 	</network>
 </networks>
 END_PROGRAM
+
+
 
