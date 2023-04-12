@@ -1,0 +1,8 @@
+Github desktop : 2.8.1 (LINUX), 3.2.0 (Windows)
+Automation Studio : 4.9.2.46
+SQL Workbench : 8.0.32
+Linux : version 22.04
+PHPMyAdmin : 5.2.1deb1+jammy2
+PHP : 8.1.17
+Apache : 2.4.52
+serveur : 8.0.32-MySQL Community Server - GPL

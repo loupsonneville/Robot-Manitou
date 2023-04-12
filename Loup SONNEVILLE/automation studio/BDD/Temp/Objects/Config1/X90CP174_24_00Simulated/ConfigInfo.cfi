@@ -14,16 +14,16 @@
       Disable="false"
       Source="MDatabase"
       Language="IEC">
+      <InternalFile
+        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Temp\Objects\Config1\X90CP174_24_00\MDatabase\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Temp\Objects\Config1\X90CP174_24_00\MDatabase\Init.ld.var" />
+      <InternalFile
+        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Temp\Objects\Config1\X90CP174_24_00\MDatabase\Exit.ld.var" />
       <File
         Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Logical\MDatabase\Types.typ" />
       <File
         Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Logical\MDatabase\Variables.var" />
-      <InternalFile
-        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Temp\Objects\Config1\X90CP174_24_00\MDatabase\Cyclic.ld.var" />
-      <InternalFile
-        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Temp\Objects\Config1\X90CP174_24_00\MDatabase\Exit.ld.var" />
-      <InternalFile
-        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\BDD\Temp\Objects\Config1\X90CP174_24_00\MDatabase\Init.ld.var" />
     </Task>
   </TaskClass>
   <TaskClass

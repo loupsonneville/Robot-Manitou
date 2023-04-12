@@ -3,11 +3,18 @@
 <Configuration>
   <Element ID="gDatabaseCore" Type="mpdatabasecore">
     <Group ID="mapp.Database.Core">
-      <Property ID="Name" Value="BDDManitou" />
-      <Property ID="UserName" Value="Admin" />
-      <Property ID="Password" Value="Wiener_Blut27" />
-      <Property ID="PortNumber" Value="3308" />
+      <Property ID="Name" Value="BDD Manitou" />
+      <Property ID="UserName" Value="Manitou" />
+      <Property ID="Password" Value="Ganz_Wien79" />
+      <Property ID="PortNumber" Value="85" />
     </Group>
   </Element>
-  <Element ID="gDatabaseCore_1" Type="mpdatabasecore" />
+  <Element ID="gDatabaseCore_1" Type="mpdatabasecore">
+    <Group ID="mapp.Database.Core">
+      <Property ID="Name" Value="BDD Manitou" />
+      <Property ID="UserName" Value="Manitou" />
+      <Property ID="Password" Value="07aSd6Fx5XLjMuMR61opbZ7gqSqvqmNHoE3G+KhGSygJD+HxQ0cabv4tJsW4gL4Dy" />
+      <Property ID="PortNumber" Value="85" />
+    </Group>
+  </Element>
 </Configuration>

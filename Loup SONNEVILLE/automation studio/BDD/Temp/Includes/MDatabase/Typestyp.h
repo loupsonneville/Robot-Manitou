@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1679926921_4_
-#define _BUR_1679926921_4_
+#ifndef _BUR_1680686918_1_
+#define _BUR_1680686918_1_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/MDatabase/Types.typ\\\" scope \\\"local\\\
 __asm__(".previous");
 
 
-#endif /* _BUR_1679926921_4_ */
+#endif /* _BUR_1680686918_1_ */
 
