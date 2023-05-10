@@ -11,8 +11,11 @@
     </Columns>
     <ExpandedNodes>
       <ExpandedNode Row="0" />
+      <ExpandedNode Row="1" />
     </ExpandedNodes>
-    <SelectedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="1" />
+    </SelectedNodes>
     <ZoomIndices />
   </TreeView>
   <Versatile ID="BR.AS.SystemConfiguration.Presentation-EditorState-C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Physical\Config1\X90CP174_24_00\mappServices\Config.mpdatabasecore">
