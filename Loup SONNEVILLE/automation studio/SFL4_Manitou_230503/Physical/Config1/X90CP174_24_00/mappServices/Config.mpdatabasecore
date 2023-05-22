@@ -6,7 +6,7 @@
       <Property ID="Name" Value="BDDManitou" />
       <Property ID="UserName" Value="administrateur" />
       <Property ID="Password" Value="Wiener_Blut98" />
-      <Property ID="PortNumber" Value="85" />
+      <Property ID="PortNumber" Value="86" />
     </Group>
   </Element>
 </Configuration>
