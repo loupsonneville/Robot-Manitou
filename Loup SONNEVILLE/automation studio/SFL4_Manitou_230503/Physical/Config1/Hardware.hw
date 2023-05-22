@@ -10,6 +10,7 @@
       <Parameter ID="ActivateDevice" Value="1" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="SFL4_Manitou_230503_Config1" />
+    <Parameter ID="Simulation" Value="1" />
     <Parameter ID="Cyclic1Duration" Value="10000" />
     <Parameter ID="Cyclic1Tolerance" Value="10000" />
     <Parameter ID="Cyclic2Duration" Value="20000" />

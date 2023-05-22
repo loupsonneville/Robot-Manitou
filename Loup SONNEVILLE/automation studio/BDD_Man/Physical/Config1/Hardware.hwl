@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="05/11/2023 14:20:53" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="5PP520.1043-00" Type="5PP520.1043-00" X="-94.0999756" Y="90" />
+    <Module Name="5PP5CP_US15_00" Type="5PP5CP.US15-00" X="100.000015" Y="100" />
+    <Module Name="ModbusTcp_any" Type="ModbusTcp_any" X="145.000015" Y="330" />
+  </Modules>
+  <Links>
+    <Link From="5PP520.1043-00" To="ModbusTcp_any" FromPort="IF3" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="12.95002" Y="276" />
+      <Point X="12.95002" Y="276" />
+      <Point X="12.95002" Y="281" />
+      <Point X="12.95002" Y="395" />
+      <Point X="179.000015" Y="395" />
+      <Point X="179.000015" Y="381" />
+      <Point X="179.000015" Y="374" />
+      <Point X="179.000015" Y="374" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>
