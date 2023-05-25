@@ -5,7 +5,7 @@
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="133275893938961541" />
+    LastWriteTime="133292356440697955" />
   <Object
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\MpComponents.var"
     LogicalPath="MpComponents.var"
@@ -28,7 +28,7 @@
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="133275922699151313" />
+    LastWriteTime="133292355398140278" />
   <Object
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Libraries\operator\binary.lby"
     LogicalPath="Libraries.operator"
@@ -197,39 +197,39 @@
     LastWriteTime="133275896681579294"
     Private="false" />
   <Object
-    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Libraries\ManProgram\IEC.prg"
-    LogicalPath="Libraries.ManProgram"
+    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Program\IEC.prg"
+    LogicalPath="Program"
     Type="Program"
-    LastWriteTime="133275919632183845" />
+    LastWriteTime="133292356440697955" />
   <Object
-    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Libraries\ManProgram\Cyclic.ld"
-    LogicalPath="Libraries.ManProgram.Cyclic.ld"
+    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Program\Cyclic.ld"
+    LogicalPath="Program.Cyclic.ld"
     Type="File"
-    LastWriteTime="133275923694261092"
+    LastWriteTime="133292361212132510"
     Private="false" />
   <Object
-    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Libraries\ManProgram\Init.ld"
-    LogicalPath="Libraries.ManProgram.Init.ld"
+    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Program\Init.ld"
+    LogicalPath="Program.Init.ld"
     Type="File"
-    LastWriteTime="133275919631871348"
+    LastWriteTime="133292361291667185"
     Private="false" />
   <Object
-    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Libraries\ManProgram\Exit.ld"
-    LogicalPath="Libraries.ManProgram.Exit.ld"
+    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Program\Exit.ld"
+    LogicalPath="Program.Exit.ld"
     Type="File"
-    LastWriteTime="133275919632027615"
+    LastWriteTime="133292361299377419"
     Private="false" />
   <Object
-    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Libraries\ManProgram\Types.typ"
-    LogicalPath="Libraries.ManProgram.Types.typ"
+    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Program\Types.typ"
+    LogicalPath="Program.Types.typ"
     Type="File"
-    LastWriteTime="133275919632027615"
+    LastWriteTime="133292356440541720"
     Private="true" />
   <Object
-    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Libraries\ManProgram\Variables.var"
-    LogicalPath="Libraries.ManProgram.Variables.var"
+    Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Program\Variables.var"
+    LogicalPath="Program.Variables.var"
     Type="File"
-    LastWriteTime="133275923695560545"
+    LastWriteTime="133292361277158435"
     Private="true" />
   <Object
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Physical\Config1\Config.pkg"
@@ -240,13 +240,13 @@
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="133282721281205215"
+    LastWriteTime="133293931169454670"
     Private="false" />
   <Object
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Physical\Config1\Hardware.hwl"
     LogicalPath="Config1.Hardware.hwl"
     Type="File"
-    LastWriteTime="133282721582858527"
+    LastWriteTime="133292365043639460"
     Private="false" />
   <Object
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Physical\Config1\X90CP174_24_00\Cpu.pkg"
@@ -257,7 +257,7 @@
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Physical\Config1\X90CP174_24_00\Cpu.sw"
     LogicalPath="Config1.X90CP174_24_00.Cpu.sw"
     Type="File"
-    LastWriteTime="133275922699721772"
+    LastWriteTime="133292356468458708"
     Private="false" />
   <Object
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Physical\Config1\X90CP174_24_00\Cpu.per"
@@ -394,7 +394,7 @@
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Physical\Config1\X90CP174_24_00\mappServices\Config.mpdatabasecore"
     LogicalPath="Config1.X90CP174_24_00.mappServices.Config.mpdatabasecore"
     Type="File"
-    LastWriteTime="133282864174255101"
+    LastWriteTime="133292355470217645"
     Private="false" />
   <Object
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Physical\Config1\X90CP174_24_00\mappSafety\Package.pkg"
@@ -430,6 +430,6 @@
     Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="133282721583620080"
+    LastWriteTime="133292365044108273"
     Private="false" />
 </Objects>

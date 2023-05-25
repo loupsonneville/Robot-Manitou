@@ -5,7 +5,7 @@
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
-    <Task Name="ManProgram" Source="Libraries.ManProgram.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Program" Source="Program.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <Libraries>
     <LibraryObject Name="MpDatabase" Source="Libraries.MpDatabase.lby" Memory="UserROM" Language="Binary" Debugging="true" />

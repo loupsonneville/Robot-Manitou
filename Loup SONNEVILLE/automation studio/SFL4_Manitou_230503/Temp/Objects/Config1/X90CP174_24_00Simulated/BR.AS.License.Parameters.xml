@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /AM=* /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\SFL4_Manitou_230503.apj</ApjFullFileName>
+    <ProjectName>SFL4_Manitou_230503</ProjectName>
+    <ActiveConfigurationName>Config1</ActiveConfigurationName>
+    <LicenseDataFolder>C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Temp\Objects\Config1\X90CP174_24_00</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

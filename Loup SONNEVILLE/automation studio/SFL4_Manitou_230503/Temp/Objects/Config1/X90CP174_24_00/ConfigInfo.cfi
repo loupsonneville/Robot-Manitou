@@ -10,20 +10,20 @@
   <TaskClass
     Name="Cyclic#4">
     <Task
-      Name="ManProgram"
+      Name="Program"
       Disable="false"
-      Source="Libraries.ManProgram"
+      Source="Program"
       Language="IEC">
       <InternalFile
-        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Temp\Objects\Config1\X90CP174_24_00\ManProgram\Cyclic.ld.var" />
+        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Temp\Objects\Config1\X90CP174_24_00\Program\Cyclic.ld.var" />
       <InternalFile
-        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Temp\Objects\Config1\X90CP174_24_00\ManProgram\Init.ld.var" />
+        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Temp\Objects\Config1\X90CP174_24_00\Program\Init.ld.var" />
       <InternalFile
-        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Temp\Objects\Config1\X90CP174_24_00\ManProgram\Exit.ld.var" />
+        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Temp\Objects\Config1\X90CP174_24_00\Program\Exit.ld.var" />
       <File
-        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Libraries\ManProgram\Types.typ" />
+        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Program\Types.typ" />
       <File
-        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Libraries\ManProgram\Variables.var" />
+        Path="C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Logical\Program\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

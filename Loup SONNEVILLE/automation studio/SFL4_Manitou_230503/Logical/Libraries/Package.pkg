@@ -9,6 +9,5 @@
     <Object Type="Library" Language="Binary" Description="Interface to SQL database">MpDatabase</Object>
     <Object Type="Library" Language="Binary" Description="Core library for mapp components">MpBase</Object>
     <Object Type="Library" Language="binary" Description="This library contains FBKs for exchanging and formatting data (message based) via HTTP (TCP).">AsHttp</Object>
-    <Object Type="Program" Language="IEC">ManProgram</Object>
   </Objects>
 </Package>

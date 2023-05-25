@@ -1,0 +1,5 @@
+VAR
+	MpDatabaseCore_0 : MpDatabaseCore;
+	MpDatabaseCore_1 : MpDatabaseCore;
+	MpDatabaseCore_2 : MpDatabaseCore;
+END_VAR

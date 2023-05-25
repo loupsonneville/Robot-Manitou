@@ -3,10 +3,11 @@
 <Configuration>
   <Element ID="gDatabaseCore" Type="mpdatabasecore">
     <Group ID="mapp.Database.Core">
-      <Property ID="Name" Value="BDDManitou" />
-      <Property ID="UserName" Value="administrateur" />
-      <Property ID="Password" Value="Wiener_Blut98" />
-      <Property ID="PortNumber" Value="86" />
+      <Property ID="Name" Value="manitou" />
+      <Property ID="UserName" Value="Manitou" />
+      <Property ID="Password" Value="Ganz_Wien79" />
+      <Property ID="IPAddress" Value="10.16.2.233" />
+      <Property ID="PortNumber" Value="3306" />
     </Group>
   </Element>
 </Configuration>

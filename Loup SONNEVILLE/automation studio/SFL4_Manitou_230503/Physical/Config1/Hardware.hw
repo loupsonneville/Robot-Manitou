@@ -8,9 +8,10 @@
     <Connection Connector="X1" TargetModule="X1" TargetConnector="SL" />
     <Connector Name="IF2">
       <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="10.16.7.81" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="SFL4_Manitou_230503_Config1" />
-    <Parameter ID="Simulation" Value="1" />
     <Parameter ID="Cyclic1Duration" Value="10000" />
     <Parameter ID="Cyclic1Tolerance" Value="10000" />
     <Parameter ID="Cyclic2Duration" Value="20000" />

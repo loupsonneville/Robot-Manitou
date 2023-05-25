@@ -3,7 +3,7 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="C4.90"/>
   <Hardware Target="SG4"/>
-  <Operation Delete="ManProgram.br"/>
+  <Operation Delete="Program.br"/>
   <Operation Delete="MpDatabase.br"/>
   <Operation Delete="asieccon.br"/>
   <Operation Delete="MpBase.br"/>
@@ -33,5 +33,5 @@
   <Operation Download="TCData.br" Memory="SystemROM"/>
   <Operation Download="udbdef.br" Memory="UserROM"/>
   <Operation Download="User.br" Memory="UserROM"/>
-  <Operation Download="ManProgram.br" Memory="UserROM"/>
+  <Operation Download="Program.br" Memory="UserROM"/>
 </Transfer>
