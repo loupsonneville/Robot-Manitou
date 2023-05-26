@@ -18,7 +18,7 @@ PROGRAM _EXIT
 		</row>
 		<row>
 			<empty/>
-			<empty/>
+			<analog type="input" name="1"/>
 			<functionblock position="middle" type="MpDatabaseCore"><input name="Enable"/><output name="Error"/></functionblock>
 			<empty/>
 		</row>
@@ -55,4 +55,5 @@ PROGRAM _EXIT
 	</network>
 </networks>
 END_PROGRAM
+
 
