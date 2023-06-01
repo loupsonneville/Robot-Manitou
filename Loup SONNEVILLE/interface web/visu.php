@@ -26,11 +26,26 @@
     <main>
       <!-- sections du site -->
 
-      <section class="sidebar">
         
+      <section class="tableau_visu">
+
+        <table>
+
+          <tr>
+            <td>
+              <img src="img/ceinture.jpg" class="image_visu"/>
+            </td>
+            <td>
+              <?php  
+                if($ceinture_conducteur_attachee == true){
+
+                  echo 1;
+                }
+              ?>
+            </td>
+          </tr>
+        </table>
       </section>
-        
-      
       
       
 

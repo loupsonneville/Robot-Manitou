@@ -68,6 +68,18 @@ body{
     margin-top: 50px;
 }
 
+.image_visu{
+
+    width: 100px;
+    height: 100px;
+}
+
+.tableau_visu{
+
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
 .trames{
 
     margin-top: 50px;
