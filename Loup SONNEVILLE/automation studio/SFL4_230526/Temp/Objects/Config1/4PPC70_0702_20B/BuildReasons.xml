@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program\cyclic.ld.o">
+    <BuildReason>Newest Prerequisite 2023-05-26 09:43:15 newer than target 2023-05-26 09:38:24.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program\init.ld.o">
+    <BuildReason>Newest Prerequisite 2023-05-26 09:43:15 newer than target 2023-05-26 09:38:24.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program\exit.ld.o">
+    <BuildReason>Newest Prerequisite 2023-05-26 09:43:15 newer than target 2023-05-26 09:38:24.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program\cyclic.ld.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program\cyclic.ld.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program\program.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program\program.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\4ppc70_0702_20b\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

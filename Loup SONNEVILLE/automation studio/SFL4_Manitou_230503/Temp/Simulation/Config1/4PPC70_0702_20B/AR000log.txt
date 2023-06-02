@@ -1,0 +1,21 @@
+Fri May 26 10:44:57 2023
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Fri May 26 10:44:57 2023
+No ARsim registration found!
+
+Fri May 26 10:44:57 2023
+InstanceName: 01d98fae595da0d0
+
+Fri May 26 10:44:57 2023
+WorkingDirectory: C:\Users\loup.sonneville\Documents\Github\SN2_SFL4Manitou_23\Loup SONNEVILLE\automation studio\SFL4_Manitou_230503\Temp\Simulation\Config1\4PPC70_0702_20B\
+
+Fri May 26 10:44:57 2023
+COMMAND_COLDSTART
+
+Fri May 26 10:44:59 2023
+Version: C4.90
+
+Fri May 26 10:45:18 2023
+COMMAND_TERMINATE
+
