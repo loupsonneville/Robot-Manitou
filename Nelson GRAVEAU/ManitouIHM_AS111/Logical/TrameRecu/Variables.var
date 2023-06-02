@@ -1,0 +1,14 @@
+VAR
+	BlinkTimer : TIME := T#1s;
+	i : USINT;
+	k : USINT;
+	CANreader : ARRAY[0..2] OF Trame;
+	Octet1 : USINT;
+	Octet2 : USINT;
+	Octet3 : USINT;
+	Octet4 : USINT;
+	Octet5 : USINT;
+	Octet6 : USINT;
+	Octet7 : USINT;
+	Octet8 : USINT;
+END_VAR

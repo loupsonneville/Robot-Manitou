@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.9.2.46 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="4PP045_0571_062" Type="4PP045.0571-062" Version="1.0.5.0">
+    <Connector Name="IF1">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="10.16.7.83" />
+      <Parameter ID="SubnetMask" Value="255.255.0.0" />
+    </Connector>
+    <Parameter ID="VcObjectName" Value="Visu" />
+    <Parameter ID="KeyMappingFile" Value="VC\4PP045_0571_062.dis" />
+  </Module>
+  <Module Name="4PP045_IF23-1" Type="4PP045.IF23-1" Version="1.0.0.0">
+    <Connection Connector="SS" TargetModule="4PP045_0571_062" TargetConnector="SS1" />
+    <Connector Name="IF3">
+      <Parameter ID="Baudrate" Value="250000" />
+      <Parameter ID="IdentifierLength" Value="1" />
+      <Parameter ID="ReceiveTimeout" Value="20" />
+      <Parameter ID="ActivateCanOpen" Value="1" />
+      <Parameter ID="p100c_parametervalue" Value="1000" />
+      <Parameter ID="p100d_parametervalue" Value="3" />
+    </Connector>
+  </Module>
+</Hardware>

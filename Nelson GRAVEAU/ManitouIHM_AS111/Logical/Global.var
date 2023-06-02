@@ -1,0 +1,10 @@
+VAR
+	SPU_TX_LED_03 : USINT;
+	LV_FreinAMain : USINT; (*Frein à main icone*)
+	SPU_TX_LCD_04 : USINT; (*ICON LCD 000 = Neutral, 001=Forward, 010 = Reverse, 011 = Off, 111 = HW input*)
+	LV_Batterie : USINT; (*Batterie*)
+	SPU_TX_LED_04 : USINT; (*Batterie icone*)
+	SPU_TX_LED_01 : USINT := 1; (*Ceinture icone*)
+	LV_Ceinture : USINT; (*Ceinture*)
+	Octet : ARRAY[0..7] OF USINT;
+END_VAR

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<Objects>
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133300992060000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133301627600000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133301052400000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133300174040000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133255425620000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133255425620000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133255425620000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133255425620000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133255425620000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133255425620000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133255425620000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133255425620000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133255425620000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133255425620000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133255425620000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133255425620000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133255425640000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133255425640000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133255425640000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133255425640000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\CAN_Lib\binary.lby"
+    LogicalPath="Libraries.CAN_Lib"
+    Type="Library"
+    LastWriteTime="133275918180000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\CAN_Lib\CAN_Lib.fun"
+    LogicalPath="Libraries.CAN_Lib.CAN_Lib.fun"
+    Type="File"
+    LastWriteTime="133275918160000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\CAN_Lib\CAN_Lib.typ"
+    LogicalPath="Libraries.CAN_Lib.CAN_Lib.typ"
+    Type="File"
+    LastWriteTime="133275918180000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Libraries\CAN_Lib\CAN_Lib.var"
+    LogicalPath="Libraries.CAN_Lib.CAN_Lib.var"
+    Type="File"
+    LastWriteTime="133275918180000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Visu\Vc.dob"
+    LogicalPath="Visu"
+    Type="DataObject"
+    LastWriteTime="133226700300000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Visu\VCObject.vc"
+    LogicalPath="Visu.VCObject.vc"
+    Type="File"
+    LastWriteTime="133226700300000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\TrameRecu\IEC.prg"
+    LogicalPath="TrameRecu"
+    Type="Program"
+    LastWriteTime="133282725620000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\TrameRecu\Main.st"
+    LogicalPath="TrameRecu.Main.st"
+    Type="File"
+    LastWriteTime="133301631820000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\TrameRecu\Types.typ"
+    LogicalPath="TrameRecu.Types.typ"
+    Type="File"
+    LastWriteTime="133255429320000000"
+    Private="true" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\TrameRecu\Variables.var"
+    LogicalPath="TrameRecu.Variables.var"
+    Type="File"
+    LastWriteTime="133301627600000000"
+    Private="true" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Simulation\IEC.prg"
+    LogicalPath="Simulation"
+    Type="Program"
+    LastWriteTime="133257660180000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Simulation\Main.st"
+    LogicalPath="Simulation.Main.st"
+    Type="File"
+    LastWriteTime="133257665540000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Simulation\Types.typ"
+    LogicalPath="Simulation.Types.typ"
+    Type="File"
+    LastWriteTime="133257660180000000"
+    Private="true" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Logical\Simulation\Variables.var"
+    LogicalPath="Simulation.Variables.var"
+    Type="File"
+    LastWriteTime="133257660980000000"
+    Private="true" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133255425660000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="133294994300000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133299965580000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\4PP045_0571_062\Cpu.pkg"
+    LogicalPath="Config1.4PP045_0571_062"
+    Type="Cpu"
+    LastWriteTime="133255425640000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\4PP045_0571_062\Cpu.sw"
+    LogicalPath="Config1.4PP045_0571_062.Cpu.sw"
+    Type="File"
+    LastWriteTime="133300174040000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\4PP045_0571_062\Cpu.per"
+    LogicalPath="Config1.4PP045_0571_062.Cpu.per"
+    Type="File"
+    LastWriteTime="133255425640000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\4PP045_0571_062\IoMap.iom"
+    LogicalPath="Config1.4PP045_0571_062.IoMap.iom"
+    Type="File"
+    LastWriteTime="133255425640000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\4PP045_0571_062\PvMap.vvm"
+    LogicalPath="Config1.4PP045_0571_062.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133255425640000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\4PP045_0571_062\VC\Package.pkg"
+    LogicalPath="Config1.4PP045_0571_062.VC"
+    Type="Package"
+    LastWriteTime="133255425640000000" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\4PP045_0571_062\VC\4PP045_0571_062.dis"
+    LogicalPath="Config1.4PP045_0571_062.VC.4PP045_0571_062.dis"
+    Type="File"
+    LastWriteTime="133255425640000000"
+    Private="false" />
+  <Object
+    Path="E:\Gros projet\ManitouIHM_AS111\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133299965580000000"
+    Private="false" />
+</Objects>

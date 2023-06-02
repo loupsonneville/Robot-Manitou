@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="05/25/2023 16:43:50" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="4PP045_0571_062" Type="4PP045.0571-062" X="1307" Y="645" />
+    <Module Name="4PP045_IF23-1" Type="4PP045.IF23-1" X="1417.1" Y="655" />
+  </Modules>
+  <Links />
+  <InfoElements />
+</BR.AS.HardwareTopology>
