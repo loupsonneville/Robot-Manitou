@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="4PP045.0571-062">
+    <Parameter ID="HardwareModuleName" Value="4PP045_0571_062" />
+    <Parameter ID="ActivateDtmServer" Value="0" Type="UDINT" />
+  </Module>
+  <Module ID="$root.IO" Hardware="4PP045.0571-062">
+    <Parameter ID="ActivateOpc" Value="0" />
+    <Parameter ID="OpcServerName" Value="BR.OPC.Server_AR" />
+  </Module>
+  <Module ID="IF2.X2X" Hardware="X2X">
+    <Parameter ID="CycleTime" Value="4000" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="BusLength" Value="1000" Type="UDINT" />
+    <Parameter ID="Stations" Value="64" Type="UDINT" />
+    <Parameter ID="AsyncPayload" Value="80" Type="UDINT" />
+    <Parameter ID="Asymmetric" Value="off" />
+  </Module>
+  <Module ID="SS1" Hardware="4PP045.IF23-1">
+    <Parameter ID="HardwareModuleName" Value="4PP045_IF23-1" />
+  </Module>
+  <Module ID="SS1.IF3.CANIO" Hardware="CANIO">
+    <Parameter ID="Timeout" Value="1000" Type="UDINT" />
+    <Parameter ID="Retries" Value="3" Type="UDINT" />
+    <Parameter ID="Mode" Value="CANIO" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen" Hardware="CANopen">
+    <Parameter ID="pcannodeid" Value="1" Type="UDINT" />
+    <Parameter ID="pIgnSlvConfErr" Value="1" Type="INT" />
+    <Parameter ID="pRegOnlyConfEmcyCOBID" Value="0" Type="INT" />
+    <Parameter ID="procPriority" Value="191" Type="UINT" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p1000" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="Device type" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="7" />
+    <Parameter ID="accesstype" Value="ro" />
+    <Parameter ID="parametervalue" Value="0x195" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p1001" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="Error register" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="5" />
+    <Parameter ID="accesstype" Value="ro" />
+    <Parameter ID="parametervalue" Value="0" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p1002" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="Manufacturer status register" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="7" />
+    <Parameter ID="accesstype" Value="ro" />
+    <Parameter ID="parametervalue" Value="0" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p1003" Hardware="LogicalNode">
+    <Parameter ID="subnumber" Value="2" />
+    <Parameter ID="parametername" Value="Pre-defined error field" />
+    <Parameter ID="objecttype" Value="8" />
+    <Parameter ID="datatype" Value="7" />
+    <Parameter ID="accesstype" Value="ro" />
+    <Parameter ID="parametervalue" Value="0" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p1003sub0" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="Number of errors" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="5" />
+    <Parameter ID="accesstype" Value="rw" />
+    <Parameter ID="parametervalue" Value="0x1" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p1003sub1" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="Standard error field" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="7" />
+    <Parameter ID="accesstype" Value="ro" />
+    <Parameter ID="parametervalue" Value="00" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p1005" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="COB-ID SYNC message" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="7" />
+    <Parameter ID="accesstype" Value="rw" />
+    <Parameter ID="parametervalue" Value="0x00000080" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p1006" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="Communication cycle period" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="7" />
+    <Parameter ID="accesstype" Value="rw" />
+    <Parameter ID="parametervalue" Value="0" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p1007" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="Synchronous window length" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="7" />
+    <Parameter ID="accesstype" Value="rw" />
+    <Parameter ID="parametervalue" Value="0" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p100c" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="Guard time" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="6" />
+    <Parameter ID="accesstype" Value="rw" />
+    <Parameter ID="parametervalue" Value="1000" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p100d" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="Life time factor" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="5" />
+    <Parameter ID="accesstype" Value="rw" />
+    <Parameter ID="parametervalue" Value="3" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.p1014" Hardware="LogicalNode">
+    <Parameter ID="parametername" Value="COB-ID emergency message" />
+    <Parameter ID="objecttype" Value="7" />
+    <Parameter ID="datatype" Value="7" />
+    <Parameter ID="accesstype" Value="ro" />
+    <Parameter ID="parametervalue" Value="$NODEID+0x80" />
+    <Parameter ID="pdomapping" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.pdynamicchannels" Hardware="LogicalNode">
+    <Parameter ID="nrofseg" Value="16" />
+    <Parameter ID="type1" Value="2" />
+    <Parameter ID="dir1" Value="ro" />
+    <Parameter ID="range1" Value="0xA000-0xA03F" />
+    <Parameter ID="maxcnt1" Value="16256" />
+    <Parameter ID="type2" Value="5" />
+    <Parameter ID="dir2" Value="ro" />
+    <Parameter ID="range2" Value="0xA040-0xA07F" />
+    <Parameter ID="maxcnt2" Value="16256" />
+    <Parameter ID="type3" Value="1" />
+    <Parameter ID="dir3" Value="ro" />
+    <Parameter ID="range3" Value="0xA080-0xA0BF" />
+    <Parameter ID="maxcnt3" Value="16256" />
+    <Parameter ID="type4" Value="3" />
+    <Parameter ID="dir4" Value="ro" />
+    <Parameter ID="range4" Value="0xA0C0-0xA0FF" />
+    <Parameter ID="maxcnt4" Value="16256" />
+    <Parameter ID="type5" Value="6" />
+    <Parameter ID="dir5" Value="ro" />
+    <Parameter ID="range5" Value="0xA100-0xA13F" />
+    <Parameter ID="maxcnt5" Value="16256" />
+    <Parameter ID="type6" Value="4" />
+    <Parameter ID="dir6" Value="ro" />
+    <Parameter ID="range6" Value="0xA1C0-0xA1FF" />
+    <Parameter ID="maxcnt6" Value="16256" />
+    <Parameter ID="type7" Value="7" />
+    <Parameter ID="dir7" Value="ro" />
+    <Parameter ID="range7" Value="0xA200-0xA23F" />
+    <Parameter ID="maxcnt7" Value="16256" />
+    <Parameter ID="type8" Value="8" />
+    <Parameter ID="dir8" Value="ro" />
+    <Parameter ID="range8" Value="0xA240-0xA27F" />
+    <Parameter ID="maxcnt8" Value="16256" />
+    <Parameter ID="type9" Value="2" />
+    <Parameter ID="dir9" Value="rww" />
+    <Parameter ID="range9" Value="0xA480-0xA4BF" />
+    <Parameter ID="maxcnt9" Value="16256" />
+    <Parameter ID="type10" Value="5" />
+    <Parameter ID="dir10" Value="rww" />
+    <Parameter ID="range10" Value="0xA4C0-0xA4FF" />
+    <Parameter ID="maxcnt10" Value="16256" />
+    <Parameter ID="type11" Value="1" />
+    <Parameter ID="dir11" Value="rww" />
+    <Parameter ID="range11" Value="0xA500-0A53F" />
+    <Parameter ID="maxcnt11" Value="16256" />
+    <Parameter ID="type12" Value="3" />
+    <Parameter ID="dir12" Value="rww" />
+    <Parameter ID="range12" Value="0xA540-0xA57F" />
+    <Parameter ID="maxcnt12" Value="16256" />
+    <Parameter ID="type13" Value="6" />
+    <Parameter ID="dir13" Value="rww" />
+    <Parameter ID="range13" Value="0xA580-0xA5BF" />
+    <Parameter ID="maxcnt13" Value="16256" />
+    <Parameter ID="type14" Value="4" />
+    <Parameter ID="dir14" Value="rww" />
+    <Parameter ID="range14" Value="0xA640-0xA67F" />
+    <Parameter ID="maxcnt14" Value="16256" />
+    <Parameter ID="type15" Value="7" />
+    <Parameter ID="dir15" Value="rww" />
+    <Parameter ID="range15" Value="0xA680-0xA6BF" />
+    <Parameter ID="maxcnt15" Value="16256" />
+    <Parameter ID="type16" Value="8" />
+    <Parameter ID="dir16" Value="rww" />
+    <Parameter ID="range16" Value="0xA6C0-0xA6FF" />
+    <Parameter ID="maxcnt16" Value="16256" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.pmandatoryobjects" Hardware="LogicalNode">
+    <Parameter ID="supportedobjects" Value="2" />
+    <Parameter ID="1" Value="0x1000" />
+    <Parameter ID="2" Value="0x1001" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.pmanufacturerobjects" Hardware="LogicalNode">
+    <Parameter ID="supportedobjects" Value="0" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.pnmtstartup" Hardware="LogicalNode">
+    <Parameter ID="maximumbootuptime" Value="0" Type="UINT" />
+    <Parameter ID="pnptimer" Value="10" Type="UINT" />
+    <Parameter ID="cyclicdatatime" Value="10" Type="UINT" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.poptionalobjects" Hardware="LogicalNode">
+    <Parameter ID="supportedobjects" Value="8" />
+    <Parameter ID="1" Value="0x1002" />
+    <Parameter ID="2" Value="0x1003" />
+    <Parameter ID="3" Value="0x1005" />
+    <Parameter ID="4" Value="0x1006" />
+    <Parameter ID="5" Value="0x1007" />
+    <Parameter ID="6" Value="0x100C" />
+    <Parameter ID="7" Value="0x100D" />
+    <Parameter ID="8" Value="0x1014" />
+  </Module>
+  <Module ID="SS1.IF3.CANopen.pstandarddatatypes" Hardware="LogicalNode">
+    <Parameter ID="0x0020" Value="1" />
+    <Parameter ID="0x0021" Value="1" />
+  </Module>
+</IOCFG>

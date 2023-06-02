@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9" WorkingVersion="4.9"?>
+<RuleSetOptions UsesUTCTime="True">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\ashwac.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-05-25 14:43:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\ashwac.br&quot; -L &quot;AsIecCon: V*, astime: V*, CAN_Lib: V*, operator: V*, runtime: V*&quot; -c &quot;Config1&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -M IA32 -B H3.10 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; -T SG4 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\sysconf.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-05-25 14:43:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -c &quot;Config1&quot; -sysconf -S &quot;4PP045_0571_062&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\sysconf.br&quot; -T SG4 -B H3.10 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\asfw.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-05-25 14:43:50" />
+    <Prerequisite ID="d:\automation_studio\as49\upgrades\modified.txt" LastWriteTime="2020-11-19 13:46:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;4PP045_0571_062&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\asfw.br&quot; -T SG4 -B H3.10 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -firmware -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\ashwd.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-05-25 14:43:50" />
+    <Prerequisite ID="d:\automation_studio\as49\upgrades\modified.txt" LastWriteTime="2020-11-19 13:46:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;4PP045_0571_062&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\ashwd.br&quot; -T SG4 -B H3.10 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -hwd -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\arconfig.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-05-25 14:43:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4pp045_0571_062\iomap.iom" LastWriteTime="2023-04-09 19:36:04" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\4PP045_0571_062\IoMap.iom&quot;  -arconfig -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -c &quot;Config1&quot; -v V1.00.0 -S &quot;4PP045_0571_062&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\HardwareConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B H3.10 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\udbdef.br">
+    <Prerequisite ID="d:\automation_studio\as49\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" LastWriteTime="2020-08-10 04:29:50" />
+    <CommandLine Parameter="D:\Automation_Studio\AS49\AS\TechnologyPackages\UnitSystem\n.d\Transfer\Modules\SG4\udbdef.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\udbdef.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\iomap.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4pp045_0571_062\iomap.iom" LastWriteTime="2023-04-09 19:36:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4pp045_0571_062\pvmap.vvm" LastWriteTime="2023-04-09 19:36:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2023-05-25 14:43:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4pp045_0571_062\cpu.sw" LastWriteTime="2023-05-31 14:36:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\channelconfiguration.xml" LastWriteTime="2023-05-22 07:47:58" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\4PP045_0571_062\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\4PP045_0571_062\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\iomap.br&quot; -T SG4 -B H3.10 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1.4PP045_0571_062&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\tramerecu.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\tramerecu\tramerecu.ox" LastWriteTime="2023-06-02 07:00:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4pp045_0571_062\cpu.per" LastWriteTime="2023-04-09 19:36:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\tramerecu\variables.var" LastWriteTime="2023-06-02 06:59:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-06-01 15:00:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\can_lib\can_lib.typ" LastWriteTime="2023-05-03 12:50:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\can_lib\can_lib.fun" LastWriteTime="2023-05-03 12:50:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-06-02 06:59:20" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\TrameRecu\TrameRecu.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\TrameRecu.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\4PP045_0571_062\LT.ofs&quot; -T SG4 -M IA32 -B H3.10 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic1 -p 2 -s &quot;TrameRecu&quot; -L &quot;AsIecCon: V*, astime: V*, CAN_Lib: V*, operator: V*, runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\tramerecu\tramerecu.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\tramerecu\a.out" LastWriteTime="2023-06-02 07:00:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\tramerecu\variables.var" LastWriteTime="2023-06-02 06:59:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-06-01 15:00:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\can_lib\can_lib.typ" LastWriteTime="2023-05-03 12:50:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\can_lib\can_lib.fun" LastWriteTime="2023-05-03 12:50:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-06-02 06:59:20" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\TrameRecu\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\TrameRecu\TrameRecu.ox&quot; -T SG4 -r Cyclic1 -G V4.1.2  " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\tramerecu\a.out">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\tramerecu\main.st.o" LastWriteTime="1601-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\tramerecu\variables.var" LastWriteTime="2023-06-02 06:59:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-06-01 15:00:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\can_lib\can_lib.typ" LastWriteTime="2023-05-03 12:50:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\can_lib\can_lib.fun" LastWriteTime="2023-05-03 12:50:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-06-02 06:59:20" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\TrameRecu\Main.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\TrameRecu\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,D:\Automation_Studio\AS\System\H0310\SG4\libAsIecCon.a&quot; &quot;-Wl,D:\Automation_Studio\AS\System\H0310\SG4\libCAN_Lib.a&quot; &quot;-Wl,D:\Automation_Studio\AS\System\H0310\SG4\libastime.a&quot; &quot;-Wl,D:\Automation_Studio\AS\System\H0310\SG4\libruntime.a&quot; &quot;-Wl,D:\Automation_Studio\AS\System\H0310\SG4\liboperator.a&quot; -specs &quot;D:\Automation_Studio\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs&quot; -nostdlib &quot;-Wl,D:\Automation_Studio\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\lib\libasiec.a&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\tramerecu\main.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\tramerecu\main.st" LastWriteTime="2023-06-02 07:06:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\tramerecu\variables.var" LastWriteTime="2023-06-02 06:59:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-06-01 15:00:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\can_lib\can_lib.typ" LastWriteTime="2023-05-03 12:50:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\can_lib\can_lib.fun" LastWriteTime="2023-05-03 12:50:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-06-02 06:59:20" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\TrameRecu\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\TrameRecu\Main.st.o&quot; -T SG4 -M IA32 -B H3.10 -G V4.1.2  -s &quot;TrameRecu&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\TrameRecu\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\TrameRecu\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\CAN_Lib\CAN_Lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\CAN_Lib\CAN_Lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\CAN_Lib\CAN_Lib.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\simulation.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\simulation\simulation.ox" LastWriteTime="2023-06-02 06:59:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4pp045_0571_062\cpu.per" LastWriteTime="2023-04-09 19:36:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\simulation\variables.var" LastWriteTime="2023-04-12 09:41:38" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\Simulation\Simulation.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\Simulation.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\4PP045_0571_062\LT.ofs&quot; -T SG4 -M IA32 -B H3.10 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic1 -p 3 -s &quot;Simulation&quot; -L &quot;AsIecCon: V*, astime: V*, CAN_Lib: V*, operator: V*, runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\simulation\simulation.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\simulation\a.out" LastWriteTime="2023-06-02 06:59:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\simulation\variables.var" LastWriteTime="2023-04-12 09:41:38" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\Simulation\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\Simulation\Simulation.ox&quot; -T SG4 -r Cyclic1 -G V4.1.2  " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\simulation\a.out">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\simulation\main.st.o" LastWriteTime="2023-05-22 07:48:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\simulation\variables.var" LastWriteTime="2023-04-12 09:41:38" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\Simulation\Main.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\Simulation\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,D:\Automation_Studio\AS\System\H0310\SG4\libAsIecCon.a&quot; &quot;-Wl,D:\Automation_Studio\AS\System\H0310\SG4\libCAN_Lib.a&quot; &quot;-Wl,D:\Automation_Studio\AS\System\H0310\SG4\libastime.a&quot; &quot;-Wl,D:\Automation_Studio\AS\System\H0310\SG4\libruntime.a&quot; &quot;-Wl,D:\Automation_Studio\AS\System\H0310\SG4\liboperator.a&quot; -specs &quot;D:\Automation_Studio\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs&quot; -nostdlib &quot;-Wl,D:\Automation_Studio\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\lib\libasiec.a&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\simulation\main.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\simulation\main.st" LastWriteTime="2023-04-12 09:49:14" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\simulation\variables.var" LastWriteTime="2023-04-12 09:41:38" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Simulation\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\Simulation\Main.st.o&quot; -T SG4 -M IA32 -B H3.10 -G V4.1.2  -s &quot;Simulation&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Simulation\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Simulation\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\CAN_Lib\CAN_Lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\CAN_Lib\CAN_Lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\CAN_Lib\CAN_Lib.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\can_lib.br">
+    <Prerequisite ID="d:\automation_studio\as\system\h0310\sg4\can_lib.br" LastWriteTime="2019-02-08 12:25:02" />
+    <CommandLine Parameter="D:\Automation_Studio\AS\System\H0310\SG4\CAN_Lib.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\CAN_Lib.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\runtime.br">
+    <Prerequisite ID="d:\automation_studio\as\system\h0310\sg4\runtime.br" LastWriteTime="2019-02-08 12:25:06" />
+    <CommandLine Parameter="D:\Automation_Studio\AS\System\H0310\SG4\runtime.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\runtime.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\visu\visu.mak">
+    <CommandLine Parameter="&quot;Visu&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\Visu.br&quot; -T SG4 -B H3.10 -c &quot;Config1&quot; -S &quot;4PP045_0571_062&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; -V &quot;V4.72.2&quot; -apj &quot;ManitouIHM_AS111&quot; -v V1.00.0 -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -w2 -sfas" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\visu.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\visu\visu.mak" LastWriteTime="2023-06-02 07:06:28" />
+    <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\#cpu_vc.mak&quot; -k" />
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PP045_0571_062\#cpu_tp.mak&quot; -k" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\4pp045_0571_062\transfer.lst">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\ashwac.br" LastWriteTime="2023-05-22 07:48:10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\sysconf.br" LastWriteTime="2023-05-26 09:53:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\asfw.br" LastWriteTime="2023-05-22 07:48:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\ashwd.br" LastWriteTime="2023-05-22 07:48:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\arconfig.br" LastWriteTime="2023-05-22 07:48:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\udbdef.br" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\iomap.br" LastWriteTime="2023-05-22 07:48:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\tramerecu.br" LastWriteTime="2023-06-02 07:00:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\simulation.br" LastWriteTime="2023-06-02 06:59:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\can_lib.br" LastWriteTime="2019-02-08 12:25:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\runtime.br" LastWriteTime="2019-02-08 12:25:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4pp045_0571_062\visu.br" LastWriteTime="2023-05-24 12:54:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4pp045_0571_062\cpu.sw" LastWriteTime="2023-05-31 14:36:44" />
+    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\ManitouIHM_AS111.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;D:\Automation_Studio\AS49&quot; -S &quot;4PP045_0571_062&quot; -A &quot;PP045&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\4PP045_0571_062\Cpu.sw&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -M IA32 -T SG4" />
+  </Rule>
+</RuleSetOptions>

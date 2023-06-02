@@ -1,0 +1,5 @@
+VAR
+	Hauteur : USINT;
+	Essence : USINT;
+	Vitesse : USINT;
+END_VAR
