@@ -1,0 +1,8 @@
+VAR CONSTANT
+	MAX_SEND_FRAMES : USINT := 10;
+	MY_CAN_IDENTIFIER : UDINT := 257;
+END_VAR
+VAR
+	canQueueReadWrite : CanQueueReadWrite_typ;
+	n : USINT;
+END_VAR
