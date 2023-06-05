@@ -9,29 +9,16 @@
       <Property Name="ActiveView" Value="0"/>
       <Property Name="FrameMinPtX" Value="-1"/>
       <Property Name="FrameMinPtY" Value="-1"/>
-      <Property Name="ParentObjectName" Value="Maintenance"/>
-      <Property Name="ParentObjectType" Value="Page"/>
+      <Property Name="ParentObjectName" Value="Pb_moteur"/>
+      <Property Name="ParentObjectType" Value="ColorMap"/>
       <Property Name="ShowCmd" Value="3"/>
-      <Property Name="WndPosBottom" Value="514"/>
-      <Property Name="WndPosLeft" Value="26"/>
-      <Property Name="WndPosRight" Value="314"/>
-      <Property Name="WndPosTop" Value="26"/>
+      <Property Name="WndPosBottom" Value="681"/>
+      <Property Name="WndPosLeft" Value="0"/>
+      <Property Name="WndPosRight" Value="286"/>
+      <Property Name="WndPosTop" Value="0"/>
       <Views>
         <View>
-          <Property Name="ID" Value="32"/>
-          <Property Name="Scalecx" Value="4"/>
-          <Property Name="Scalecy" Value="4"/>
-          <Property Name="ScrollPositionX" Value="0"/>
-          <Property Name="ScrollPositionY" Value="0"/>
-        </View>
-        <View>
-          <Property Name="ID" Value="536870912"/>
-        </View>
-        <View>
-          <Property Name="ID" Value="16384"/>
-        </View>
-        <View>
-          <Property Name="ID" Value="262144"/>
+          <Property Name="ID" Value="0"/>
         </View>
       </Views>
     </Frame>
@@ -39,23 +26,50 @@
       <Property Name="ActiveView" Value="0"/>
       <Property Name="FrameMinPtX" Value="-1"/>
       <Property Name="FrameMinPtY" Value="-1"/>
-      <Property Name="ParentObjectName" Value="Common Layers"/>
-      <Property Name="ParentObjectType" Value="CommonLayerMngr"/>
+      <Property Name="ParentObjectName" Value="stop"/>
+      <Property Name="ParentObjectType" Value="ColorMap"/>
       <Property Name="ShowCmd" Value="3"/>
-      <Property Name="WndPosBottom" Value="514"/>
-      <Property Name="WndPosLeft" Value="26"/>
-      <Property Name="WndPosRight" Value="314"/>
-      <Property Name="WndPosTop" Value="26"/>
+      <Property Name="WndPosBottom" Value="993"/>
+      <Property Name="WndPosLeft" Value="312"/>
+      <Property Name="WndPosRight" Value="598"/>
+      <Property Name="WndPosTop" Value="312"/>
       <Views>
         <View>
           <Property Name="ID" Value="0"/>
         </View>
+      </Views>
+    </Frame>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="liquide_refroid"/>
+      <Property Name="ParentObjectType" Value="ColorMap"/>
+      <Property Name="ShowCmd" Value="3"/>
+      <Property Name="WndPosBottom" Value="967"/>
+      <Property Name="WndPosLeft" Value="286"/>
+      <Property Name="WndPosRight" Value="572"/>
+      <Property Name="WndPosTop" Value="286"/>
+      <Views>
         <View>
-          <Property Name="ID" Value="1073741824"/>
-          <Property Name="Scalecx" Value="10"/>
-          <Property Name="Scalecy" Value="10"/>
-          <Property Name="ScrollPositionX" Value="0"/>
-          <Property Name="ScrollPositionY" Value="0"/>
+          <Property Name="ID" Value="0"/>
+        </View>
+      </Views>
+    </Frame>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="Huile_Moteur"/>
+      <Property Name="ParentObjectType" Value="ColorMap"/>
+      <Property Name="ShowCmd" Value="3"/>
+      <Property Name="WndPosBottom" Value="941"/>
+      <Property Name="WndPosLeft" Value="260"/>
+      <Property Name="WndPosRight" Value="546"/>
+      <Property Name="WndPosTop" Value="260"/>
+      <Views>
+        <View>
+          <Property Name="ID" Value="0"/>
         </View>
       </Views>
     </Frame>

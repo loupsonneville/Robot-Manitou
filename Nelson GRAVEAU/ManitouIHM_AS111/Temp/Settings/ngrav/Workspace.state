@@ -25,7 +25,7 @@
     <SelectedNodes />
     <ZoomIndices />
   </TreeView>
-  <TextEdit ID="C:\Users\ngrav\Documents\GitHub\SN2_SFL4Manitou_23\Nelson GRAVEAU\ManitouIHM_AS111\Logical\SamplesCAN_Lib\LibCAN_Lib1_ST\CanQueue\CanQueue.st" CaretLine="31" CaretColumn="3" FirstVisibleLine="1">
+  <TextEdit ID="C:\Users\ngrav\Documents\GitHub\SN2_SFL4Manitou_23\Nelson GRAVEAU\ManitouIHM_AS111\Logical\SamplesCAN_Lib\LibCAN_Lib1_ST\CanQueue\CanQueue.st" CaretLine="47" CaretColumn="2" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
   <TreeView ID="SwConfiguration-ProjectTree" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
@@ -68,7 +68,7 @@
     <SelectedNodes />
     <ZoomIndices />
   </TreeView>
-  <TextEdit ID="C:\Users\ngrav\Documents\GitHub\SN2_SFL4Manitou_23\Nelson GRAVEAU\ManitouIHM_AS111\Logical\TrameRecu\Main.st" CaretLine="24" CaretColumn="2" FirstVisibleLine="1">
+  <TextEdit ID="C:\Users\ngrav\Documents\GitHub\SN2_SFL4Manitou_23\Nelson GRAVEAU\ManitouIHM_AS111\Logical\TrameRecu\Main.st" CaretLine="28" CaretColumn="1" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
   <TextEdit ID="C:\Users\ngrav\Documents\GitHub\SN2_SFL4Manitou_23\Nelson GRAVEAU\ManitouIHM_AS111\Logical\Simulation\Main.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
@@ -94,7 +94,7 @@
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
-  <TreeView ID="C:\Users\ngrav\Documents\GitHub\SN2_SFL4Manitou_23\Nelson GRAVEAU\ManitouIHM_AS111\Logical\Global.var" EditColumn="3" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+  <TreeView ID="C:\Users\ngrav\Documents\GitHub\SN2_SFL4Manitou_23\Nelson GRAVEAU\ManitouIHM_AS111\Logical\Global.var" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
     <Columns>
       <Column Index="0" Width="200" Position="0" />
       <Column Index="1" Width="100" Position="1" />
@@ -109,9 +109,7 @@
       <Column Index="10" Width="0" Position="10" />
     </Columns>
     <ExpandedNodes />
-    <SelectedNodes>
-      <SelectedNode Row="0" />
-    </SelectedNodes>
+    <SelectedNodes />
     <ZoomIndices />
   </TreeView>
   <TreeView ID="C:\Users\ngrav\Documents\GitHub\SN2_SFL4Manitou_23\Nelson GRAVEAU\ManitouIHM_AS111\Logical\TrameRecu\Variables.var" EditColumn="1" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
@@ -129,7 +127,9 @@
       <Column Index="10" Width="0" Position="10" />
     </Columns>
     <ExpandedNodes />
-    <SelectedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="0" />
+    </SelectedNodes>
     <ZoomIndices />
   </TreeView>
 </State>

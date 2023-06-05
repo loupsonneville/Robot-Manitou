@@ -120,9 +120,7 @@
     <Source File="Bitmaps\zuneNumPad_pressed.bminfo"/>
     <Source File="Bitmaps\option.bminfo"/>
     <Source File="Bitmaps\logo.bminfo"/>
-    <Source File="Bitmaps\clino_droite_allume.bminfo"/>
     <Source File="Bitmaps\clino_droite_eteint.bminfo"/>
-    <Source File="Bitmaps\clino_gauche_allume.bminfo"/>
     <Source File="Bitmaps\clino_gauche_eteint.bminfo"/>
     <Source File="Bitmaps\JaugeDeHauteur.bminfo"/>
     <Source File="Bitmaps\Jauge_vitesse.bminfo"/>
@@ -134,11 +132,15 @@
     <Source File="Bitmaps\Ceinture_rouge.bminfo"/>
     <Source File="Bitmaps\MDV.bminfo"/>
     <Source File="Bitmaps\Phare_plein_gris.bminfo"/>
-    <Source File="Bitmaps\tmp_moteur.bminfo"/>
-    <Source File="Bitmaps\Parking_gris.bminfo"/>
-    <Source File="Bitmaps\Pression_huile.bminfo"/>
     <Source File="Bitmaps\Ceinture_gris.bminfo"/>
     <Source File="Bitmaps\Batterie.bminfo"/>
+    <Source File="Bitmaps\Parking_gris.bminfo"/>
+    <Source File="Bitmaps\Pression_huile.bminfo"/>
+    <Source File="Bitmaps\tmp_moteur.bminfo"/>
+    <Source File="Bitmaps\Huile_moteur.bminfo"/>
+    <Source File="Bitmaps\stop_gris.bminfo"/>
+    <Source File="Bitmaps\liquide_refroidissement.bminfo"/>
+    <Source File="Bitmaps\pb_moteur.bminfo"/>
     <Source File="BitmapGroups\AlphaPadQVGA.bmgrp"/>
     <Source File="BitmapGroups\NumPad.bmgrp"/>
     <Source File="BitmapGroups\AlphaPad.bmgrp"/>
@@ -211,6 +213,13 @@
     <Source File="Trends\TrendData.tdc"/>
     <Source File="ColorMaps\Ceinture.clm"/>
     <Source File="ColorMaps\Batterie.clm"/>
+    <Source File="ColorMaps\tmp_moteur.clm"/>
+    <Source File="ColorMaps\Pression_huile.clm"/>
+    <Source File="ColorMaps\Frein_a_main.clm"/>
+    <Source File="ColorMaps\Huile_Moteur.clm"/>
+    <Source File="ColorMaps\liquide_refroid.clm"/>
+    <Source File="ColorMaps\stop.clm"/>
+    <Source File="ColorMaps\Pb_moteur.clm"/>
     <Source File="VirtualKeys.vcvk"/>
     <Source File="Palette.vcr"/>
   </SourceFiles>

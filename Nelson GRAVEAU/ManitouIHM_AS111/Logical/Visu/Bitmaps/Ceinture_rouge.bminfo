@@ -10,7 +10,7 @@
   <Property Name="FillAreaLeft" Value="0"/>
   <Property Name="FillAreaTop" Value="0"/>
   <Property Name="FillAreas" Value="0"/>
-  <Property Name="Index" Value="85"/>
+  <Property Name="Index" Value="86"/>
   <Property Name="TargetFormat" Value="Raw8Bit"/>
   <Property Name="Transparent" Value="True"/>
   <Property Name="TransparentColor" Value="247"/>
