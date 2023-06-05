@@ -4,7 +4,12 @@
   <Module Name="4PPC70_0702_20B" Type="4PPC70.0702-20B" Version="1.5.2.0">
     <Connector Name="IF2">
       <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="10.16.7.86" />
+      <Parameter ID="SubnetMask" Value="255.255.0.0" />
+      <Parameter ID="ActivateSnmp" Value="2" />
     </Connector>
+    <Parameter ID="ConfigurationID" Value="SFL4_230526_Config1" />
     <Parameter ID="KeyMappingFile" Value="VC\4PPC70_0702_20B.dis" />
   </Module>
 </Hardware>
