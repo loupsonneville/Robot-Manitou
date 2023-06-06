@@ -1,0 +1,10 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="E:/Gros projet/ManitouIHM_AS111/Physical/Config1/4PP045_0571_062/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="TrameRecu" Source="TrameRecu.prg" />
+      <Task Name="Simulation" Source="Simulation.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\Users\ngrav\Documents\GitHub\SN2_SFL4Manitou_23\Nelson GRAVEAU\ManitouIHM_AS111\Logical\"
+  TempDirectory="C:\Users\ngrav\Documents\GitHub\SN2_SFL4Manitou_23\Nelson GRAVEAU\ManitouIHM_AS111\Temp\"
+  AutomationStudioVersion="4.9.2.46"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="Config1"
+  CreateAnsiCDeclarations="false" />

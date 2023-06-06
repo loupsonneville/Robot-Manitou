@@ -8,6 +8,54 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
 </BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\cyclic.ld.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\x90cp174_24_00\mappservices\config.mpdatabasecore" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\cyclic.ld.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\cyclic.ld.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\init.ld.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\x90cp174_24_00\mappservices\config.mpdatabasecore" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\init.ld.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\init.ld.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\exit.ld.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\x90cp174_24_00\mappservices\config.mpdatabasecore" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\exit.ld.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\exit.ld.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\_bur_pvdef.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\cyclic.ld.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\_bur_pvdef.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\cyclic.ld.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\manprogram.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\manprogram\manprogram.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\config.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\x90cp174_24_00\mappservices\config.mpdatabasecore" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\iomap.br">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
 </BuildReason>
@@ -26,5 +74,9 @@
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\x90cp174_24_00\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x90cp174_24_00\config.br" differs.
+</BuildReason>
   </Rule>
 </BuildReasons>

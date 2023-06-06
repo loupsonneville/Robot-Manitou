@@ -1,30 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=4.9.2.46 FileVersion="4.9"?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
-  <Module Name="X90CP174_24_00" Type="X90CP174.24-00" Version="1.3.1.0">
-    <Module Name="X1" Type="X1" Virtual="true" Version="1.3.1.0">
-      <Connection Connector="SL" TargetModule="X90CP174_24_00" TargetConnector="X1" />
-    </Module>
-    <Connection Connector="X1" TargetModule="X1" TargetConnector="SL" />
+  <Module Name="4PPC70_0702_20B" Type="4PPC70.0702-20B" Version="1.5.2.0">
     <Connector Name="IF2">
       <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="10.16.7.86" />
+      <Parameter ID="SubnetMask" Value="255.255.0.0" />
+      <Parameter ID="ActivateSnmp" Value="2" />
+      <Parameter ID="DeviceParam" Value="/EDDN=gem" />
+    </Connector>
+    <Connector Name="IF5">
+      <Parameter ID="BusLength" Value="1" />
+      <Parameter ID="Stations" Value="4" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="SFL4_Manitou_230503_Config1" />
-    <Parameter ID="Cyclic1Duration" Value="10000" />
-    <Parameter ID="Cyclic1Tolerance" Value="10000" />
-    <Parameter ID="Cyclic2Duration" Value="20000" />
-    <Parameter ID="Cyclic2Tolerance" Value="20000" />
-    <Parameter ID="Cyclic3Duration" Value="50000" />
-    <Parameter ID="Cyclic3Tolerance" Value="50000" />
-    <Parameter ID="Cyclic4Duration" Value="100000" />
-    <Parameter ID="Cyclic4Tolerance" Value="100000" />
-    <Parameter ID="Cyclic5Duration" Value="200000" />
-    <Parameter ID="Cyclic5Tolerance" Value="200000" />
-    <Parameter ID="Cyclic6Duration" Value="500000" />
-    <Parameter ID="Cyclic6Tolerance" Value="500000" />
-    <Parameter ID="Cyclic7Duration" Value="1000000" />
-    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
-    <Parameter ID="Cyclic8Duration" Value="10000" />
-    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Parameter ID="KeyMappingFile" Value="VC\4PPC70_0702_20B.dis" />
   </Module>
 </Hardware>

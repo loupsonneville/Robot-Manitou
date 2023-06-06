@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/CAN_Lib/CAN_Lib.fun
+$(AS_PROJECT_PATH)/Logical/SamplesCAN_Lib/LibCAN_Lib1_ST/CanQueue/CanQueue.var
+$(AS_PROJECT_PATH)/Logical/SamplesCAN_Lib/LibCAN_Lib1_ST/CanQueue/CanQueue.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/CAN_Lib/CAN_Lib.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/CAN_Lib/CAN_Lib.var
