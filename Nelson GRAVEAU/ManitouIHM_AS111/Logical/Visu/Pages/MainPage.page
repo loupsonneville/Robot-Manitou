@@ -354,6 +354,203 @@
           <Property Name="Top" Value="158"/>
           <Property Name="Width" Value="23"/>
         </Control>
+        <Control ClassId="0x00001001" Name="Shape_Frein_Main">
+          <Property Name="BackColor" Value="80"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.LV_FreinAMain]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[Frein_a_main]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="80"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="77"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="155"/>
+          <Property Name="Width" Value="25"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Frein_a_main">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Parking_gris]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="77"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="155"/>
+          <Property Name="Width" Value="27"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_Pression_huile">
+          <Property Name="BackColor" Value="80"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[Pression_huile]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="80"/>
+          <Property Name="Height" Value="23"/>
+          <Property Name="Left" Value="214"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="152"/>
+          <Property Name="Width" Value="29"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Pression_huile">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Pression_huile]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.LV_Pression_huile]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[Pression_huile]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="23"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="214"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="152"/>
+          <Property Name="Width" Value="31"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_tmp_moteur">
+          <Property Name="BackColor" Value="80"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[tmp_moteur]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="80"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="253"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="141"/>
+          <Property Name="Width" Value="22"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Tmp_Moteur">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[tmp_moteur]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.LV_Tmp_Moteur]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[tmp_moteur]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="253"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="141"/>
+          <Property Name="Width" Value="22"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_stop">
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[stop]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="255"/>
+          <Property Name="Height" Value="29"/>
+          <Property Name="Left" Value="285"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="47"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Stop">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[stop_gris]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="29"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="285"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="47"/>
+          <Property Name="Width" Value="31"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_huile_moteur">
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.LV_Huile_Moteur]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[Huile_Moteur]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="255"/>
+          <Property Name="Height" Value="11"/>
+          <Property Name="Left" Value="285"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="130"/>
+          <Property Name="Width" Value="26"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Huile_moteur">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Huile_moteur]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="11"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="284"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="130"/>
+          <Property Name="Width" Value="29"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_liquide_refroid">
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[liquide_refroid]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="255"/>
+          <Property Name="Height" Value="19"/>
+          <Property Name="Left" Value="288"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="186"/>
+          <Property Name="Width" Value="23"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="liquide_refroid">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[liquide_refroidissement]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="19"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="288"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="186"/>
+          <Property Name="Width" Value="23"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_pb_moteur">
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[Pb_moteur]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="255"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="250"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="175"/>
+          <Property Name="Width" Value="26"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Pb_moteur">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[pb_moteur]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="250"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="175"/>
+          <Property Name="Width" Value="26"/>
+        </Control>
       </Controls>
       <KeyMapping>
         <VirtualKey Name="%embVirtualKey_1">

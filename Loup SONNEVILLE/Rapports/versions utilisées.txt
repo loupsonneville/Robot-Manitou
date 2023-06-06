@@ -6,3 +6,6 @@ PHPMyAdmin : 5.2.1deb1+jammy2
 PHP : 8.1.17
 Apache : 2.4.52
 serveur : 8.0.32-MySQL Community Server - GPL
+Python : Version 3.10.7
+mysql-connector-python: 8.0.33 (64bits)
+mappdatabase connector : 3.5.72

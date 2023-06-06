@@ -5,6 +5,9 @@ VAR
 	LV_Batterie : USINT; (*Batterie*)
 	SPU_TX_LED_04 : USINT; (*Batterie icone*)
 	SPU_TX_LED_01 : USINT := 1; (*Ceinture icone*)
+	LV_Pression_huile : USINT; (*Pression huile*)
+	LV_Huile_Moteur : USINT; (*Huile moteur*)
+	LV_Tmp_Moteur : USINT; (*Temperature du moteur*)
 	LV_Ceinture : USINT; (*Ceinture*)
 	Octet : ARRAY[0..7] OF USINT;
 END_VAR
